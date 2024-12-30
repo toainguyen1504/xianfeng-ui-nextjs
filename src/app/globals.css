@@ -14,6 +14,11 @@
   }
 }
 
+.custom-card .ant-card-body {
+  padding-top: 12px !important; 
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);
