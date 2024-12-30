@@ -12,7 +12,12 @@ export default function Home() {
       <BannerCarousel />
 
       {/* Services */}
-      <ServiceCards />
+      <section className="my-20">
+        <h2 className="text-3xl font-bold mb-10">
+          List of Pioneer Professional Services
+        </h2>
+        <ServiceCards />
+      </section>
 
       {/* Image Location */}
       <section className="my-20">

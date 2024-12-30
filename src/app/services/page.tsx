@@ -5,8 +5,8 @@ import ContactForm from "@/components/common/ContactForm";
 
 const ServicesPage = () => {
   return (
-    <div className="my-10">
-      <h1 className="text-5xl">Our Services</h1>
+    <div className="my-20">
+      <h1 className="text-5xl mb-10">Our Services</h1>
       <ServiceCards />
       <ContactForm />
     </div>

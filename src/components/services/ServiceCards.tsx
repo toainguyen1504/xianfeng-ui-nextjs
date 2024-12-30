@@ -161,7 +161,7 @@ const services = [
 
 const ServiceCards = () => {
   return (
-    <section className="my-20">
+    <div>
       <Row gutter={[16, 16]}>
         {services.map((service, index) => (
           <Col xs={24} sm={12} lg={8} key={index}>
@@ -193,7 +193,7 @@ const ServiceCards = () => {
           </Col>
         ))}
       </Row>
-    </section>
+    </div>
   );
 };
 
