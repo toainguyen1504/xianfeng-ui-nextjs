@@ -4,6 +4,7 @@ import { Image } from "antd";
 // import Link from "next/link";
 import ServiceCards from "@/components/services/ServiceCards";
 import BannerCarousel from "@/components/common/BannerCarousel";
+import ContactForm from "@/components/common/ContactForm";
 export default function Home() {
   return (
     <div>
@@ -84,6 +85,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Contact */}
+      <ContactForm />
     </div>
   );
 }

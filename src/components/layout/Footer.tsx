@@ -15,7 +15,7 @@ export default function Footer() {
               preview={false}
               width={"80px"}
             />
-            <p className="ml-2 text-3xl text-white">Pioneer Business</p>
+            <p className="ml-3 text-2xl text-white">Pioneer Business</p>
           </div>
           <p>
             Only professional services and innovative technology can drive
