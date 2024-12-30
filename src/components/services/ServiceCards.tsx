@@ -170,15 +170,16 @@ const ServiceCards = () => {
                 <div className="flex items-center">
                   <div className="flex-shrink-0">{service.icon}</div>
                   <div className="ml-2 flex-grow truncate">
-                    <span className="text-xl ">{service.title}</span>
+                    <span className="text-xl">{service.title}</span>
                   </div>
                 </div>
               }
-              className={
+              className={`custom-card ${
                 index % 2 === 0
-                  ? "bg-primary bg-opacity-10 custom-card"
-                  : "bg-white text-black custom-card"
-              }
+                  ? "bg-primary bg-opacity-10"
+                  : "bg-white text-black"
+              }`}
+              style={{ minHeight: "270px" }}
               bordered={false}
             >
               <h3 className="text-lg font-semibold">{service.subTitle}</h3>

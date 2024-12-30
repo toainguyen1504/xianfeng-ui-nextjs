@@ -1,12 +1,16 @@
+"use client";
 import React from "react";
+import ServiceCards from "@/components/services/ServiceCards";
+import ContactForm from "@/components/common/ContactForm";
 
-const Services = () => {
+const ServicesPage = () => {
   return (
-    <div>
-      <h1>Our Services</h1>
-      <p>This is the services page content.</p>
+    <div className="my-10">
+      <h1 className="text-5xl">Our Services</h1>
+      <ServiceCards />
+      <ContactForm />
     </div>
   );
 };
 
-export default Services;
+export default ServicesPage;

@@ -109,12 +109,6 @@ export default function Header() {
             Services
           </Link>
           <Link
-            href="/news"
-            className="font-semibold text-gray-700 hover:text-primary"
-          >
-            News
-          </Link>
-          <Link
             href="/contact"
             className="font-semibold text-gray-700 hover:text-primary"
           >
@@ -174,13 +168,6 @@ export default function Header() {
                 style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
               >
                 Services
-              </Link>
-              <Link
-                href="/news"
-                className="block font-medium text-gray-700 hover:text-primary border-b border-gray-100 py-3"
-                style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
-              >
-                News
               </Link>
               <Link
                 href="/contact"

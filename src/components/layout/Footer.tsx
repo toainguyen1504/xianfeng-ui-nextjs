@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#003366] text-gray pt-16">
       <div className="container mx-auto flex flex-wrap justify-around">
-        <div className="w-full md:w-1/3 px-4 mb-6 md:mb-0">
+        <div className="w-full md:w-1/3 px-4 mb-6 md:mb-0 space-y-6">
           <div className="flex items-center mb-6">
             <Image
               src="/logo_white.png"
@@ -20,6 +20,9 @@ export default function Footer() {
           <p>
             Only professional services and innovative technology can drive
             enterprise development!
+          </p>
+          <p>
+            Zalo/ Whatsapp/ Line: <span className="text-white">0899398383</span>
           </p>
         </div>
         <div className="w-full md:w-1/3 px-4 mb-6 md:mb-0 space-y-6">
@@ -41,11 +44,6 @@ export default function Footer() {
               </Link>
             </li>
 
-            <li>
-              <Link href="/news" className="hover:underline">
-                Latest News
-              </Link>
-            </li>
             <li>
               <Link href="/contact" className="hover:underline">
                 Contact Us
@@ -81,9 +79,6 @@ export default function Footer() {
               className="mb-2 ml-2"
             />
           </div>
-          <p>
-            Zalo/ Whatsapp/ Line: <span className="text-white">0899398383</span>
-          </p>
         </div>
       </div>
       <div className="text-center text-sm border-t border-gray-200 mt-8 py-6">
