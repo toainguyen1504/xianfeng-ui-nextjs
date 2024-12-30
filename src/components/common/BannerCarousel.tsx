@@ -10,7 +10,7 @@ const BannerCarousel: React.FC = () => {
       <Carousel autoplay>
         <div>
           <Row gutter={16} align="middle">
-            <Col xs={24} lg={16}>
+            <Col xs={24} md={16} lg={16}>
               <div className="p-8">
                 <Title level={1} className="text-primary">
                   <span className="font-extrabold">Pioneer</span> Vietnam
@@ -25,7 +25,7 @@ const BannerCarousel: React.FC = () => {
                 </Paragraph>
               </div>
             </Col>
-            <Col xs={24} lg={8}>
+            <Col xs={24} md={8} lg={8}>
               <div
                 className="flex justify-center rounded-xl px-8 pt-8"
                 style={{ backgroundColor: "#DCE2C8" }}
@@ -38,8 +38,8 @@ const BannerCarousel: React.FC = () => {
                   <Image
                     src="/home/banner-right.webp"
                     alt="Vietnam Local Service"
-                    // width={400}
-                    height={300}
+                    width={170}
+                    // height={300}
                     preview={false}
                     style={{ marginTop: "5px" }}
                   />

@@ -20,7 +20,7 @@ export default function Home() {
             src="/home/landmark-81.jpg"
             alt="scene"
             preview={false}
-            style={{ height: "100%" }}
+            height={"100%"}
             className="rounded-2xl w-full object-cover object-center"
           />
           <div className="absolute bottom-4 right-4 text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg text-base font-medium">
@@ -30,7 +30,7 @@ export default function Home() {
       </section>
 
       {/* Investment Support in Vietnam */}
-      <section className="my-20 flex flex-col md:flex-row bg-[#103142] text-[#9FAEB6] p-8 rounded-xl">
+      <section className="my-20 px-8 py-16 flex flex-col md:flex-row bg-[#103142] text-[#9FAEB6] rounded-xl">
         <div className="w-full md:w-2/5 relative flex items-center justify-center md:justify-start mb-8 md:mb-0">
           <Image
             src="/home/services_06.webp"
@@ -39,7 +39,7 @@ export default function Home() {
             className="rounded-2xl"
           />
         </div>
-        <div className="w-full md:w-3/5 pl-0 md:pl-8">
+        <div className="w-full md:w-3/5 pl-0 md:pl-8 flex flex-col justify-center">
           <h2 className="text-3xl text-white font-bold mb-6">
             Choose Pioneer to help your investment in Vietnam
           </h2>

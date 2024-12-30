@@ -84,7 +84,7 @@ export default function Header() {
               src="/logo.png"
               alt="Logo"
               preview={false}
-              style={{ height: "30px" }}
+              height={"30px"}
               className="md:h-[36px] mr-4"
             />
           </Link>
@@ -197,7 +197,7 @@ export default function Header() {
                   src="/QR-code-WeChat.png"
                   alt="QR Code"
                   preview={false}
-                  style={{ width: "100px" }}
+                  width={"100px"}
                   className="mb-2 ml-2"
                 />
               </div>

@@ -13,10 +13,9 @@ export default function Footer() {
               src="/logo_white.png"
               alt="xianfeng"
               preview={false}
-              style={{ width: "80px" }}
-              className="mr-2"
+              width={"80px"}
             />
-            <p className="text-3xl text-white">Pioneer Business</p>
+            <p className="ml-2 text-3xl text-white">Pioneer Business</p>
           </div>
           <p>
             Only professional services and innovative technology can drive
