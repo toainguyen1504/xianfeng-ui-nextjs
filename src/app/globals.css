@@ -14,10 +14,34 @@
   }
 }
 
+/* My css */
 .custom-card .ant-card-body {
   padding-top: 12px !important; 
 }
 
+/* css 2 button zalo and wechat */
+@keyframes wiggle {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.wiggle-pulse {
+  animation: wiggle 0.5s ease-in-out infinite, pulse 1s infinite;
+}
+/* End my css */
 
 body {
   color: var(--foreground);
