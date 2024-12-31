@@ -1,6 +1,7 @@
 import { Form, Input, Button, notification, Alert } from "antd";
-import { FieldContactFormData } from "./types";
 import { ValidateErrorEntity } from "rc-field-form/lib/interface";
+import { AiOutlineNotification } from "react-icons/ai";
+import { FieldContactFormData } from "./types";
 
 const ContactForm = () => {
   const isUpdating = true;
@@ -10,7 +11,7 @@ const ContactForm = () => {
       notification.info({
         message: "Functionality Update",
         description:
-          "This form is currently being updated. Please try again later.",
+          "This form is currently being updated. For immediate assistance, please contact us via Zalo or WeChat!",
       });
     } else {
       console.log("Success:", values);
@@ -35,15 +36,6 @@ const ContactForm = () => {
 
   return (
     <div className="flex flex-col md:flex-row lg:px-12 my-10">
-      {isUpdating && (
-        <Alert
-          message="Notice"
-          description="This form is currently being updated. Please try again later."
-          type="info"
-          showIcon
-          className="mb-4"
-        />
-      )}
       <div className="w-full md:w-2/5 lg:w-3/10 bg-gray-100 p-8 lg:p-12 flex flex-col justify-center items-center text-center space-y-4">
         <h1 className="text-3xl font-bold">Contact us for better results</h1>
         <div className="w-0.5 h-12 bg-black"></div>
@@ -51,6 +43,24 @@ const ContactForm = () => {
           <p className="text-lg mb-2">service@xianfeng.vn</p>
           <p className="text-lg">Ho Chi Minh</p>
         </div>
+        {isUpdating && (
+          <Alert
+            message={
+              <div className="flex justify-center">
+                <div className="flex items-center justify-center font-medium">
+                  <span className="mr-2">
+                    <AiOutlineNotification className="h-5 w-5" />
+                  </span>
+                  <span>Notice</span>
+                </div>
+              </div>
+            }
+            description="This form is currently being updated. For immediate assistance, please contact us via Zalo or WeChat!"
+            type="info"
+            showIcon={false}
+            className="mb-4"
+          />
+        )}
       </div>
 
       <div className="w-full md:w-3/5 lg:w-7/10 bg-white p-8 lg:p-12 flex justify-center items-center">
