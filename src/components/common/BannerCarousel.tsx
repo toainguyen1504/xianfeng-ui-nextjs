@@ -36,7 +36,7 @@ const BannerCarousel: React.FC = () => {
                     Local service in Vietnam, global security guarantee.
                   </Paragraph>
                   <Image
-                    src="/home/banner-right.webp"
+                    src="/assets/img/home/banner-right.webp"
                     alt="Vietnam Local Service"
                     width={170}
                     // height={300}

@@ -12,7 +12,7 @@ const ContactPage = () => {
       <section className="my-20 flex flex-col md:flex-row text-[#9FAEB6]">
         <div className="w-full md:w-2/5 relative flex items-center justify-center md:justify-start mb-8 md:mb-0">
           <Image
-            src="/contact/landmark81.jpg"
+            src="/assets/img/contact/landmark81.jpg"
             alt="scene"
             preview={false}
             className="w-full h-auto"
@@ -32,7 +32,7 @@ const ContactPage = () => {
           </p>
           <div className="flex justify-center">
             <Image
-              src="/QR-code-WeChat.png"
+              src="/assets/img/QR-code-WeChat.png"
               alt="QR Code"
               className="w-full h-auto"
             />
@@ -45,7 +45,7 @@ const ContactPage = () => {
       <section className="flex justify-center">
         <div className="my-10">
           <Image
-            src="/contact/ggmap.png"
+            src="/assets/img/contact/ggmap.png"
             alt="scene"
             height={700}
             className="h-auto object-cover"

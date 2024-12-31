@@ -27,7 +27,7 @@ export default function FloatingButtons() {
         rel="noopener noreferrer"
         className="ripple bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 focus:outline-none wiggle-pulse"
       >
-        <img src="zalo.png" alt="Zalo" className="w-6 h-6" />
+        <img src="/assets/icons/zalo.png" alt="Zalo" className="w-6 h-6" />
       </a>
       <button
         onClick={showModal}
@@ -43,7 +43,11 @@ export default function FloatingButtons() {
         footer={null}
         className="flex items-center justify-center"
       >
-        <Image src="QR-code-WeChat.png" alt="WeChat QR Code" preview={false} />
+        <Image
+          src="/assets/img/QR-code-WeChat.png"
+          alt="WeChat QR Code"
+          preview={false}
+        />
       </Modal>
     </div>
   );

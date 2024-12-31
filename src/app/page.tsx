@@ -23,7 +23,7 @@ export default function Home() {
       <section className="my-20">
         <div className="flex relative md:h-[750px] h-[350px] overflow-hidden rounded-2xl">
           <Image
-            src="/home/landmark-81.jpg"
+            src="/assets/img/home/landmark-81.jpg"
             alt="scene"
             preview={false}
             height={"100%"}
@@ -39,7 +39,7 @@ export default function Home() {
       <section className="my-20 px-8 py-16 flex flex-col md:flex-row bg-[#103142] text-[#9FAEB6] rounded-xl">
         <div className="w-full md:w-2/5 relative flex items-center justify-center md:justify-start mb-8 md:mb-0">
           <Image
-            src="/home/services_06.webp"
+            src="/assets/img/home/services_06.webp"
             alt="scene"
             preview={false}
             className="rounded-2xl"

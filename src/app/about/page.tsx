@@ -22,7 +22,7 @@ const AboutPage = () => {
           and development in Vietnam.
         </p>
         <Image
-          src="/about/about-us-banner.webp"
+          src="/assets/img/about/about-us-banner.webp"
           alt="scene"
           preview={false}
           height={"100%"}
@@ -57,7 +57,7 @@ const AboutPage = () => {
         </div>
         <div className="my-10 space-y-4">
           <Image
-            src="/about/about-us-1.webp"
+            src="/assets/img/about/about-us-1.webp"
             alt="scene"
             preview={false}
             height={"100%"}
@@ -84,7 +84,7 @@ const AboutPage = () => {
         </div>
         <div className="my-10 space-y-4">
           <Image
-            src="/about/about-us-2.webp"
+            src="/assets/img/about/about-us-2.webp"
             alt="scene"
             preview={false}
             height={"100%"}

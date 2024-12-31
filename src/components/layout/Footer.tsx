@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="w-full md:w-1/3 px-4 mb-6 md:mb-0 space-y-6">
           <div className="flex items-center mb-6">
             <Image
-              src="/logo_white.png"
+              src="/assets/img/logo_white.png"
               alt="xianfeng"
               preview={false}
               width={"80px"}
@@ -72,7 +72,7 @@ export default function Footer() {
           <div className="flex items-center">
             <span>Wechat: </span>
             <Image
-              src="/QR-code-WeChat.png"
+              src="/assets/img/QR-code-WeChat.png"
               alt="QR Code"
               preview={false}
               style={{ width: "100px" }}

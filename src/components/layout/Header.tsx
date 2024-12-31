@@ -30,7 +30,7 @@ export default function Header() {
       label: (
         <a href="#" onClick={() => setSelectedLanguage("vi")}>
           <Image
-            src="/flags/vi.svg"
+            src="/assets/icons/flags/vi.svg"
             alt="Vietnamese"
             width={24}
             height={24}
@@ -46,7 +46,7 @@ export default function Header() {
       label: (
         <a href="#" onClick={() => setSelectedLanguage("zh-CN")}>
           <Image
-            src="/flags/zh-CN.svg"
+            src="/assets/icons/flags/zh-CN.svg"
             alt="Chinese"
             width={24}
             height={24}
@@ -62,7 +62,7 @@ export default function Header() {
       label: (
         <a href="#" onClick={() => setSelectedLanguage("en")}>
           <Image
-            src="/flags/en.svg"
+            src="/assets/icons/flags/en.svg"
             alt="English"
             width={24}
             height={24}
@@ -81,7 +81,7 @@ export default function Header() {
         <div className="flex items-center h-[48px]">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/assets/img/logo.png"
               alt="Logo"
               preview={false}
               height={"30px"}
@@ -119,7 +119,7 @@ export default function Header() {
           <Dropdown menu={{ items: languageMenuItems }} trigger={["click"]}>
             <Button>
               <Image
-                src={languageDetails[selectedLanguage].src}
+                src={`/assets/icons${languageDetails[selectedLanguage].src}`}
                 alt={selectedLanguage}
                 width={24}
                 height={24}
@@ -181,7 +181,7 @@ export default function Header() {
               <div className="flex items-center">
                 <span>Wechat: </span>
                 <Image
-                  src="/QR-code-WeChat.png"
+                  src="/assets/icons/QR-code-WeChat.png"
                   alt="QR Code"
                   preview={false}
                   width={"100px"}
