@@ -181,7 +181,7 @@ export default function Header() {
               <div className="flex items-center">
                 <span>Wechat: </span>
                 <Image
-                  src="/assets/icons/QR-code-WeChat.png"
+                  src="/assets/img/QR-code-WeChat.png"
                   alt="QR Code"
                   preview={false}
                   width={"100px"}
