@@ -6,7 +6,7 @@ const { Title, Paragraph } = Typography;
 
 const BannerCarousel: React.FC = () => {
   return (
-    <section className="py-6 my-10">
+    <div className="py-6 my-10">
       <Carousel autoplay>
         <div>
           <Row gutter={16} align="middle">
@@ -50,7 +50,7 @@ const BannerCarousel: React.FC = () => {
         </div>
         {/* Add slide */}
       </Carousel>
-    </section>
+    </div>
   );
 };
 
