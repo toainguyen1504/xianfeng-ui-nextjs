@@ -25,15 +25,15 @@ export default function FloatingButtons() {
         href="https://zalo.me/0899398383"
         target="_blank"
         rel="noopener noreferrer"
-        className="ripple bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 focus:outline-none wiggle-pulse"
+        className="ripple bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 focus:outline-none wiggle-pulse"
       >
-        <img src="zalo.png" alt="Zalo" className="w-8 h-8" />
+        <img src="zalo.png" alt="Zalo" className="w-6 h-6" />
       </a>
       <button
         onClick={showModal}
-        className="ripple bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 focus:outline-none wiggle-pulse"
+        className="ripple bg-green-600 text-white p-3 rounded-full shadow-lg hover:bg-green-700 focus:outline-none wiggle-pulse"
       >
-        <FaWeixin className="w-8 h-8" />
+        <FaWeixin className="w-6 h-6" />
       </button>
       <Modal
         title={<div className="text-center">WeChat QR Code</div>}
