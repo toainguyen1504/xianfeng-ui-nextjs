@@ -15,7 +15,7 @@ export default function Footer() {
               preview={false}
               width={"80px"}
             />
-            <p className="ml-3 text-2xl text-white">Pioneer Business</p>
+            <p className="ml-3 text-2xl text-white">先锋商务</p>
           </div>
           <p>
             Only professional services and innovative technology can drive
@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center text-sm border-t border-gray-200 mt-8 py-6">
-        Copyright © 2024 Pioneer. All rights reserved.
+        Copyright © 2025 Cartoon. All rights reserved.
       </div>
     </footer>
   );
