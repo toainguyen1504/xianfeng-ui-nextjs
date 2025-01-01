@@ -13,8 +13,8 @@ const BannerCarousel: React.FC = () => {
             <Col xs={24} md={16} lg={16}>
               <div className="p-8">
                 <Title level={1} className="text-primary">
-                  <span className="font-extrabold">XianFeng</span> Vietnam
-                  Enterprise Landing Expert
+                  <span className="font-extrabold text-primary">XianFeng </span>
+                  Vietnam Enterprise Landing Expert
                 </Title>
                 <Paragraph className="text-lg mt-4">
                   XianFeng has a local team in Vietnam, providing comprehensive

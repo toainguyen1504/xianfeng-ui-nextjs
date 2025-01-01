@@ -40,7 +40,7 @@ const ContactForm = () => {
         <h1 className="text-3xl font-bold">Contact us for better results</h1>
         <div className="w-0.5 h-12 bg-black"></div>
         <div>
-          <p className="text-lg mb-2">service@xianfeng.vn</p>
+          <p className="text-lg mb-2">dailythue168@gmail.com</p>
           <p className="text-lg">Ho Chi Minh</p>
         </div>
         {isUpdating && (

@@ -85,7 +85,7 @@ export default function Header() {
               alt="Logo"
               preview={false}
               height={"30px"}
-              className="md:h-[36px] mr-4"
+              className="mr-4 object-contain"
             />
           </Link>
         </div>
@@ -117,7 +117,7 @@ export default function Header() {
         </nav>
         <div className="flex items-center space-x-4">
           <Dropdown menu={{ items: languageMenuItems }} trigger={["click"]}>
-            <Button>
+            <Button className="min-w-[130px] border-none shadow-none" disabled>
               <Image
                 src={`/assets/icons${languageDetails[selectedLanguage].src}`}
                 alt={selectedLanguage}

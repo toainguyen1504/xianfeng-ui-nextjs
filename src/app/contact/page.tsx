@@ -19,7 +19,7 @@ const ContactPage = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white p-4">
             <h2 className="text-3xl font-medium mb-4 ">Contact information</h2>
-            <p className="text-lg mb-2">service@xianfeng.vn</p>
+            <p className="text-lg mb-2">dailythue168@gmail.com</p>
             <p className="text-lg text-center">
               LandMark 81, Binh Thanh District, Ho Chi Minh City
             </p>

@@ -29,7 +29,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <link
           rel="apple-touch-icon"
           sizes="57x57"
@@ -111,10 +110,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
-        <FloatingButtons />
-        <main className="container mx-auto px-4">{children}</main>
-        <Footer />
+        <div className="bg-white text-content">
+          <Header />
+          <FloatingButtons />
+          <main className="container mx-auto px-4">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
