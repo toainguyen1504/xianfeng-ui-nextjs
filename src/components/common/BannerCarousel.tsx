@@ -13,11 +13,11 @@ const BannerCarousel: React.FC = () => {
             <Col xs={24} md={16} lg={16}>
               <div className="p-8">
                 <Title level={1} className="text-primary">
-                  <span className="font-extrabold">Pioneer</span> Vietnam
+                  <span className="font-extrabold">XianFeng</span> Vietnam
                   Enterprise Landing Expert
                 </Title>
                 <Paragraph className="text-lg mt-4">
-                  Pioneer has a local team in Vietnam, providing comprehensive
+                  XianFeng has a local team in Vietnam, providing comprehensive
                   one-stop services including company registration, finance,
                   law, recruitment, etc., combined with global security
                   technology to ensure the smooth operation and development of

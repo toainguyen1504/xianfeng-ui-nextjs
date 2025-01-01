@@ -14,7 +14,7 @@ export default function Home() {
       {/* Services */}
       <section className="my-20">
         <h2 className="text-3xl font-bold mb-10">
-          List of Pioneer Professional Services
+          List of XianFeng Professional Services
         </h2>
         <ServiceCards />
       </section>
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <div className="w-full md:w-3/5 pl-0 md:pl-8 flex flex-col justify-center">
           <h2 className="text-3xl text-white font-bold mb-6">
-            Choose Pioneer to help your investment in Vietnam
+            Choose XianFeng to help your investment in Vietnam
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex flex-col space-y-2">

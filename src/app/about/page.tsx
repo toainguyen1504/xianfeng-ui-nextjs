@@ -11,9 +11,9 @@ const AboutPage = () => {
     <div className="my-20">
       {/* Intro */}
       <div>
-        <h1 className="text-5xl">Pioneer Business Company Introduction</h1>
+        <h1 className="text-5xl">XianFeng Business Company Introduction</h1>
         <p className="py-4">
-          Pioneer Business is a high-tech enterprise that focuses on providing
+          XianFeng Business is a high-tech enterprise that focuses on providing
           comprehensive services to international companies entering the
           Vietnamese market. The core team has more than 20 years of industry
           experience. Our team is committed to helping customers achieve smooth
@@ -35,7 +35,7 @@ const AboutPage = () => {
         <div className="my-10 space-y-4">
           <h2 className="text-3xl">One-stop corporate services</h2>
           <p>
-            Pioneer Business provides one-stop corporate services, covering
+            XianFeng Business provides one-stop corporate services, covering
             company registration, compliance consulting, finance and accounting,
             human resources, visas and work permits, real estate and office
             leasing, etc. We professionally assist clients in Vietnam company
@@ -65,7 +65,7 @@ const AboutPage = () => {
           />
           <h2 className="text-3xl">Information and data security services</h2>
           <p>
-            Pioneer Business is well aware of the importance of information
+            XianFeng Business is well aware of the importance of information
             security, and therefore provides online and offline information and
             data security services. Our network traffic analysis and protection
             services help advertisers and e-commerce platform customers
@@ -77,7 +77,7 @@ const AboutPage = () => {
           </p>
           <p>
             By combining advanced technology with rich industry experience,
-            Pioneer Business provides customers with customized security
+            XianFeng Business provides customers with customized security
             services to ensure the security and stability of enterprises in the
             information age.
           </p>
@@ -95,11 +95,11 @@ const AboutPage = () => {
             platform
           </h2>
           <p>
-            In the wave of digital transformation, Pioneer Business is committed
-            to providing customers with professional brand official website and
-            cross-border e-commerce platform development services. Our team is
-            proficient in a variety of development technologies and can
-            customize user-friendly official websites according to corporate
+            In the wave of digital transformation, XianFeng Business is
+            committed to providing customers with professional brand official
+            website and cross-border e-commerce platform development services.
+            Our team is proficient in a variety of development technologies and
+            can customize user-friendly official websites according to corporate
             needs, optimize functions, and enhance online image. In addition, we
             also support the development of multi-language and multi-currency
             cross-border e-commerce independent sites to help companies expand
@@ -116,15 +116,15 @@ const AboutPage = () => {
 
       <hr className="bg-slate-50 opacity-10 my-16" />
 
-      {/* Reasons to choose Pioneer */}
+      {/* Reasons to choose XianFeng */}
       <div className="my-10">
-        <h2 className="text-3xl">Reasons to choose Pioneer</h2>
+        <h2 className="text-3xl">Reasons to choose XianFeng</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
           <div className="flex flex-col items-center text-center p-6 bg-gray-100 rounded-lg shadow-lg">
             <GiGiftOfKnowledge className="w-12 h-12 mb-4" />
             <h3 className="text-xl font-bold mb-2">Strong local roots</h3>
             <p>
-              Pioneer Business has rich market knowledge and deep local roots,
+              XianFeng Business has rich market knowledge and deep local roots,
               and can provide customers with tailor-made solutions to help
               companies quickly adapt to the Vietnamese market.
             </p>
@@ -146,7 +146,7 @@ const AboutPage = () => {
               Comprehensive security protection
             </h3>
             <p>
-              Pioneer Business focuses on information security and provides
+              XianFeng Business focuses on information security and provides
               comprehensive data security services to help companies resist
               potential network risks and ensure operational security.
             </p>
@@ -169,12 +169,12 @@ const AboutPage = () => {
       <div className="border border-slate-300 px-6 py-12 rounded-lg mt-20 mb-32">
         <h2 className="text-2xl font-bold mb-4">Conclusion</h2>
         <p>
-          Pioneer Business is committed to providing customers with the best
+          XianFeng Business is committed to providing customers with the best
           services and helping them achieve success in the Vietnamese market. We
           are well aware that the needs of each business are different, so we
           always insist on providing customers with personalized solutions.
-          Choose Pioneer to help your investment and development in Vietnam, and
-          let us work together to create a brilliant future!
+          Choose XianFeng to help your investment and development in Vietnam,
+          and let us work together to create a brilliant future!
         </p>
       </div>
     </div>
