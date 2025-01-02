@@ -4,6 +4,8 @@ import { Dropdown, Button, Image } from "antd";
 import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 import { IoMdClose } from "react-icons/io";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
+import i18n from "@/utils/i18n";
 
 interface LanguageDetails {
   label: string;
@@ -12,69 +14,45 @@ interface LanguageDetails {
 
 const languageDetails: Record<string, LanguageDetails> = {
   vi: { label: "Vi", src: "/flags/vi.svg" },
-  "zh-CN": { label: "ZH-CN", src: "/flags/zh-CN.svg" },
+  zh: { label: "ZH-CN", src: "/flags/zh-CN.svg" },
   en: { label: "En", src: "/flags/en.svg" },
 };
 
 export default function Header() {
+  const { t } = useTranslation("common");
   const [selectedLanguage, setSelectedLanguage] = useState<string>("en");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const changeLanguage = (lang: string) => {
+    setSelectedLanguage(lang);
+    i18n.changeLanguage(lang);
+  };
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const languageMenuItems = [
-    {
-      key: "1",
+  console.log("Selected Language:", selectedLanguage);
+  console.log("i18n.language:", i18n.language);
+
+  const languageMenuItems = Object.entries(languageDetails).map(
+    ([key, value]) => ({
+      key,
       label: (
-        <a href="#" onClick={() => setSelectedLanguage("vi")}>
+        <a href="#" onClick={() => changeLanguage(key)}>
           <Image
-            src="/assets/icons/flags/vi.svg"
-            alt="Vietnamese"
+            src={`/assets/icons${value.src}`}
+            alt={key}
             width={24}
             height={24}
             preview={false}
             className="inline-block"
           />
-          <span className="ml-2">Tiếng Việt</span>
+          <span className="ml-2">{value.label}</span>
         </a>
       ),
-    },
-    {
-      key: "2",
-      label: (
-        <a href="#" onClick={() => setSelectedLanguage("zh-CN")}>
-          <Image
-            src="/assets/icons/flags/zh-CN.svg"
-            alt="Chinese"
-            width={24}
-            height={24}
-            preview={false}
-            className="inline-block mr-2"
-          />
-          <span className="ml-2">Chinese (Simplified)</span>
-        </a>
-      ),
-    },
-    {
-      key: "3",
-      label: (
-        <a href="#" onClick={() => setSelectedLanguage("en")}>
-          <Image
-            src="/assets/icons/flags/en.svg"
-            alt="English"
-            width={24}
-            height={24}
-            preview={false}
-            className="inline-block mr-2"
-          />
-          <span className="ml-2">English</span>
-        </a>
-      ),
-    },
-  ];
-
+    })
+  );
   return (
     <header className="bg-white shadow-md h-[78px] sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center h-full px-4">
@@ -94,30 +72,30 @@ export default function Header() {
             href="/"
             className="font-semibold text-gray-700 hover:text-primary"
           >
-            Home
+            {t("home")}
           </Link>
           <Link
             href="/about"
             className="font-semibold text-gray-700 hover:text-primary"
           >
-            About Us
+            {t("about")}
           </Link>
           <Link
             href="/services"
             className="font-semibold text-gray-700 hover:text-primary"
           >
-            Services
+            {t("services")}
           </Link>
           <Link
             href="/contact"
             className="font-semibold text-gray-700 hover:text-primary"
           >
-            Contact
+            {t("contact")}
           </Link>
         </nav>
         <div className="flex items-center space-x-4">
           <Dropdown menu={{ items: languageMenuItems }} trigger={["click"]}>
-            <Button className="min-w-[130px] border-none shadow-none" disabled>
+            <Button className="min-w-[130px] border-none shadow-none">
               <Image
                 src={`/assets/icons${languageDetails[selectedLanguage].src}`}
                 alt={selectedLanguage}
