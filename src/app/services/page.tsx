@@ -2,7 +2,7 @@
 import React from "react";
 import ServiceCards from "@/components/services/ServiceCards";
 import ContactForm from "@/components/common/ContactForm";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "react-i18next";
 import Loading from "@/components/common/Loading";
 import useLanguageLoader from "@/utils/useLanguageLoader";
 

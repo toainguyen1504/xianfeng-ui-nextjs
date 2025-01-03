@@ -2,7 +2,7 @@
 import React from "react";
 import { Image } from "antd";
 import ContactForm from "@/components/common/ContactForm";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "react-i18next";
 import Loading from "@/components/common/Loading";
 import useLanguageLoader from "@/utils/useLanguageLoader";
 

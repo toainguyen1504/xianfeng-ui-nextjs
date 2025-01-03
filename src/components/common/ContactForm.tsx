@@ -3,7 +3,7 @@ import { Form, Input, Button, notification, Alert } from "antd";
 import { ValidateErrorEntity } from "rc-field-form/lib/interface";
 import { AiOutlineNotification } from "react-icons/ai";
 import { FieldContactFormData } from "./types";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
   const isUpdating = true;

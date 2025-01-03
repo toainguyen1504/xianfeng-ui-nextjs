@@ -5,7 +5,7 @@ import { GiGiftOfKnowledge } from "react-icons/gi";
 import { RiTeamFill } from "react-icons/ri";
 import { MdOutlineSecurity } from "react-icons/md";
 import { SiReactos } from "react-icons/si";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "react-i18next";
 import Loading from "@/components/common/Loading";
 import useLanguageLoader from "@/utils/useLanguageLoader";
 

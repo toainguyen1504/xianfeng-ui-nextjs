@@ -2,7 +2,7 @@
 import React from "react";
 import { Image } from "antd";
 // import Link from "next/link";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "react-i18next";
 import ServiceCards from "@/components/services/ServiceCards";
 import BannerHome from "@/components/common/BannerHome";
 import ContactForm from "@/components/common/ContactForm";

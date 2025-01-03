@@ -3,7 +3,7 @@ import React from "react";
 import { Button, Image, Input } from "antd";
 import Link from "next/link";
 import { IoIosSend } from "react-icons/io";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "react-i18next";
 import useLanguageLoader from "@/utils/useLanguageLoader";
 
 export default function Footer() {

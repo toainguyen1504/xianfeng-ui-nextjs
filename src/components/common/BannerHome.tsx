@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Row, Col, Typography, Image } from "antd";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "react-i18next";
 
 const { Title, Paragraph } = Typography;
 

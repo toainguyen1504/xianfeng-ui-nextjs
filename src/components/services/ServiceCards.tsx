@@ -15,7 +15,7 @@ import {
 import { HiMiniBuildingOffice } from "react-icons/hi2";
 import { BsTranslate } from "react-icons/bs";
 import { TbWorldCode } from "react-icons/tb";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "react-i18next";
 import { JSX } from "react";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
