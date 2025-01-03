@@ -1,27 +1,28 @@
 "use client";
 import React from "react";
-import { Carousel, Row, Col, Typography, Image } from "antd";
+import { Row, Col, Typography, Image } from "antd";
+import { useTranslation } from "next-i18next";
 
 const { Title, Paragraph } = Typography;
 
-const BannerCarousel: React.FC = () => {
+const BannerHome: React.FC = () => {
+  const { t } = useTranslation("common");
+
   return (
     <div className="py-6 my-10">
-      <Carousel autoplay>
+      <div>
         <div>
           <Row gutter={16} align="middle">
             <Col xs={24} md={16} lg={16}>
               <div className="p-8">
                 <Title level={1} className="text-primary">
-                  <span className="font-extrabold text-primary">XianFeng </span>
-                  Vietnam Enterprise Landing Expert
+                  <span className="font-extrabold text-primary mr-2">
+                    {t("bannerHome.title")}
+                  </span>
+                  {t("bannerHome.subTitle")}
                 </Title>
                 <Paragraph className="text-lg mt-4">
-                  XianFeng has a local team in Vietnam, providing comprehensive
-                  one-stop services including company registration, finance,
-                  law, recruitment, etc., combined with global security
-                  technology to ensure the smooth operation and development of
-                  enterprises.
+                  {t("bannerHome.desc")}
                 </Paragraph>
               </div>
             </Col>
@@ -31,13 +32,14 @@ const BannerCarousel: React.FC = () => {
                 style={{ backgroundColor: "#DCE2C8" }}
               >
                 <div className="overflow-hidden flex flex-col items-center text-center text-3xl">
-                  <strong>Vietnam</strong>
+                  <strong>{t("bannerHome.rightTitle")}</strong>
+
                   <Paragraph className="text-xl">
-                    Local service in Vietnam, global security guarantee.
+                    {t("bannerHome.rightDesc")}
                   </Paragraph>
                   <Image
                     src="/assets/img/home/banner-right.webp"
-                    alt="Vietnam Local Service"
+                    alt="VietNam"
                     width={170}
                     // height={300}
                     preview={false}
@@ -49,9 +51,9 @@ const BannerCarousel: React.FC = () => {
           </Row>
         </div>
         {/* Add slide */}
-      </Carousel>
+      </div>
     </div>
   );
 };
 
-export default BannerCarousel;
+export default BannerHome;

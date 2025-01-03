@@ -2,9 +2,11 @@ import { Form, Input, Button, notification, Alert } from "antd";
 import { ValidateErrorEntity } from "rc-field-form/lib/interface";
 import { AiOutlineNotification } from "react-icons/ai";
 import { FieldContactFormData } from "./types";
+import { useTranslation } from "next-i18next";
 
 const ContactForm = () => {
   const isUpdating = true;
+  const { t } = useTranslation("common");
 
   const onFinish = (values: FieldContactFormData) => {
     if (isUpdating) {
@@ -37,7 +39,7 @@ const ContactForm = () => {
   return (
     <div className="flex flex-col md:flex-row lg:px-12 my-10">
       <div className="w-full md:w-2/5 lg:w-3/10 bg-gray-100 p-8 lg:p-12 flex flex-col justify-center items-center text-center space-y-4">
-        <h1 className="text-3xl font-bold">Contact us for better results</h1>
+        <h1 className="text-3xl font-bold">{t("contactForm.title")}</h1>
         <div className="w-0.5 h-12 bg-black"></div>
         <div>
           <p className="text-lg mb-2">dailythue168@gmail.com</p>
@@ -51,11 +53,11 @@ const ContactForm = () => {
                   <span className="mr-2">
                     <AiOutlineNotification className="h-5 w-5" />
                   </span>
-                  <span>Notice</span>
+                  <span>{t("contactForm.alertTitle")}</span>
                 </div>
               </div>
             }
-            description="This form is currently being updated. For immediate assistance, please contact us via Zalo or WeChat!"
+            description={<p>{t("contactForm.alertDesc")}</p>}
             type="info"
             showIcon={false}
             className="mb-4"

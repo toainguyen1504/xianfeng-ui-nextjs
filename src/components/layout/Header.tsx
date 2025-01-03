@@ -16,6 +16,7 @@ const languageDetails: Record<string, LanguageDetails> = {
   vi: { label: "Vi", src: "/flags/vi.svg" },
   zh: { label: "ZH-CN", src: "/flags/zh-CN.svg" },
   en: { label: "En", src: "/flags/en.svg" },
+  ko: { label: "Ko", src: "/flags/ko.svg" },
 };
 
 export default function Header() {
@@ -31,9 +32,6 @@ export default function Header() {
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
-  console.log("Selected Language:", selectedLanguage);
-  console.log("i18n.language:", i18n.language);
 
   const languageMenuItems = Object.entries(languageDetails).map(
     ([key, value]) => ({
@@ -72,25 +70,25 @@ export default function Header() {
             href="/"
             className="font-semibold text-gray-700 hover:text-primary"
           >
-            {t("home")}
+            {t("navHeader.home")}
           </Link>
           <Link
             href="/about"
             className="font-semibold text-gray-700 hover:text-primary"
           >
-            {t("about")}
+            {t("navHeader.about")}
           </Link>
           <Link
             href="/services"
             className="font-semibold text-gray-700 hover:text-primary"
           >
-            {t("services")}
+            {t("navHeader.services")}
           </Link>
           <Link
             href="/contact"
             className="font-semibold text-gray-700 hover:text-primary"
           >
-            {t("contact")}
+            {t("navHeader.contact")}
           </Link>
         </nav>
         <div className="flex items-center space-x-4">

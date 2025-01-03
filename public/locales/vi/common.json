@@ -1,7 +1,195 @@
 {
-  "home": "Trang chủ",
-  "about": "Giới thiệu",
-  "services": "Dịch vụ",
-  "contact": "Liên hệ",
-  "language": "Ngôn ngữ"
+  "navHeader": {
+    "home": "Trang Chủ",
+    "about": "Giới Thiệu",
+    "services": "Dịch Vụ",
+    "contact": "Liên Hệ"
+  },
+  "bannerHome": {
+    "title": "XianFeng",
+    "subTitle": "Chuyên Gia Hạ Cánh Doanh Nghiệp Tại Việt Nam",
+    "desc": "XianFeng có đội ngũ tại Việt Nam, cung cấp các dịch vụ toàn diện như đăng ký công ty, tài chính, pháp lý, tuyển dụng, v.v., kết hợp với công nghệ bảo mật toàn cầu để đảm bảo hoạt động và phát triển doanh nghiệp.",
+    "rightTitle": "Việt Nam",
+    "rightDesc": "Dịch vụ địa phương tại Việt Nam, bảo đảm bảo mật toàn cầu."
+  },
+  "servicesList": {
+    "titleHomePage": "Danh Sách Dịch Vụ Chuyên Nghiệp Của XianFeng",
+    "titleServicePage": "Danh Sách Dịch Vụ Chuyên Nghiệp Của XianFeng",
+    "companyRegistration": {
+      "title": "Dịch Vụ Đăng Ký Công Ty",
+      "subTitle": "Hỗ trợ quy trình đăng ký công ty",
+      "description": "Xử lý đăng ký công ty tại Việt Nam một cách chuyên nghiệp để đảm bảo hoạt động hợp pháp và tuân thủ.",
+      "details": ["Dịch vụ trọn gói", "Xử lý nhanh chóng", "Đảm bảo tuân thủ"]
+    },
+    "complianceConsulting": {
+      "title": "Dịch Vụ Tư Vấn Tuân Thủ",
+      "subTitle": "Cung cấp giải thích về các luật và quy định",
+      "description": "Cung cấp các giải thích mới nhất về các luật, quy định và chính sách thuế của Việt Nam để đảm bảo doanh nghiệp luôn tuân thủ.",
+      "details": [
+        "Hiểu sâu về chính sách",
+        "Cập nhật các quy định thường xuyên",
+        "Lời khuyên phòng tránh rủi ro"
+      ]
+    },
+    "financialAccounting": {
+      "title": "Dịch Vụ Tài Chính Và Kế Toán",
+      "subTitle": "Quản lý tài chính toàn diện",
+      "description": "Cung cấp dịch vụ kiểm toán tài chính, báo cáo thuế và quản lý tiền lương để đảm bảo tính minh bạch và hiệu quả.",
+      "details": [
+        "Minh bạch tài chính cao",
+        "Đội ngũ kiểm toán chuyên nghiệp",
+        "Báo cáo thuế chính xác"
+      ]
+    },
+    "humanResources": {
+      "title": "Dịch Vụ Nhân Sự",
+      "subTitle": "Xây dựng đội ngũ hiệu quả",
+      "description": "Bao gồm tuyển dụng, thuê ngoài lao động và quản lý lương, giúp công ty nâng cao hiệu quả công việc của đội ngũ.",
+      "details": [
+        "Chọn lọc nhân tài chất lượng",
+        "Kế hoạch làm việc linh hoạt",
+        "Kiểm soát chi phí hợp lý"
+      ]
+    },
+    "visaWorkPermit": {
+      "title": "Dịch Vụ Visa Và Giấy Phép Lao Động",
+      "subTitle": "Xử lý visa nhanh chóng",
+      "description": "Cung cấp dịch vụ visa và giấy phép lao động nhanh chóng cho người lao động nước ngoài, giải quyết vấn đề hợp pháp khi sử dụng lao động.",
+      "details": [
+        "Quy trình xử lý nhanh chóng",
+        "Giải thích chính sách chuyên nghiệp",
+        "Đảm bảo tuân thủ hợp pháp"
+      ]
+    },
+    "realEstateLeasing": {
+      "title": "Dịch Vụ Cho Thuê Bất Động Sản",
+      "subTitle": "Lựa chọn đa dạng về bất động sản",
+      "description": "Cung cấp các lựa chọn thuê bất động sản và văn phòng đa dạng, đáp ứng các nhu cầu phát triển khác nhau của doanh nghiệp.",
+      "details": [
+        "Vị trí tốt",
+        "Lựa chọn thuê linh hoạt",
+        "Phân tích thị trường chuyên nghiệp"
+      ]
+    },
+    "hotelReservation": {
+      "title": "Dịch Vụ Đặt Khách Sạn",
+      "subTitle": "Dịch vụ lưu trú cao cấp",
+      "description": "Sắp xếp đặt phòng khách sạn sang trọng tại tầng 81 để đảm bảo khách hàng của bạn có trải nghiệm thoải mái.",
+      "details": [
+        "Nguồn tài nguyên khách sạn chất lượng",
+        "Quy trình đặt phòng thuận tiện",
+        "Dịch vụ khách hàng chuyên nghiệp"
+      ]
+    },
+    "premiumBusinessTranslation": {
+      "title": "Dịch Vụ Phiên Dịch Doanh Nghiệp Cao Cấp",
+      "subTitle": "Dịch vụ phiên dịch chuyên nghiệp",
+      "description": "Cung cấp dịch vụ phiên dịch trong các cuộc họp, hợp đồng và đàm phán kinh doanh.",
+      "details": [
+        "Dịch đa ngôn ngữ",
+        "Hiểu các thuật ngữ ngành",
+        "Nâng cao hiệu quả giao tiếp"
+      ]
+    },
+    "tourGuideTranslation": {
+      "title": "Dịch Vụ Phiên Dịch Hướng Dẫn Viên",
+      "subTitle": "Hỗ trợ thị trường văn hóa và du lịch",
+      "description": "Cung cấp dịch vụ phiên dịch hướng dẫn viên du lịch và kinh doanh, giúp khách hàng hiểu rõ hơn về thị trường Việt Nam.",
+      "details": [
+        "Kiến thức địa phương rộng rãi",
+        "Cung cấp giải thích văn hóa",
+        "Trải nghiệm dịch vụ chuyên nghiệp"
+      ]
+    },
+    "charterAirportTransfer": {
+      "title": "Dịch Vụ Cho Thuê Xe Và Đưa Đón Sân Bay",
+      "subTitle": "Chuyến đi an toàn và tiện lợi",
+      "description": "Cung cấp các loại xe và quy trình đặt xe đa dạng, đảm bảo chuyến đi an toàn và tiện lợi cho khách hàng.",
+      "details": [
+        "Lựa chọn xe phong phú",
+        "Dịch vụ đưa đón chu đáo",
+        "Đảm bảo chuyến đi an toàn"
+      ]
+    },
+    "corporateBrandDesign": {
+      "title": "Dịch Vụ Thiết Kế Thương Hiệu Doanh Nghiệp",
+      "subTitle": "Xây dựng hình ảnh thương hiệu",
+      "description": "Cung cấp thiết kế logo và hệ thống nhận diện thương hiệu (VIS) giúp doanh nghiệp xây dựng hình ảnh thương hiệu mạnh mẽ.",
+      "details": [
+        "Đội ngũ thiết kế sáng tạo",
+        "Chiến lược thương hiệu chuyên nghiệp",
+        "Tăng cường khả năng cạnh tranh trên thị trường"
+      ]
+    },
+    "websiteEcommerceDevelopment": {
+      "title": "Phát Triển Website Và Thương Mại Điện Tử",
+      "subTitle": "Giải pháp website tùy chỉnh",
+      "description": "Thiết kế và phát triển website và nền tảng thương mại điện tử đáp ứng nhu cầu doanh nghiệp, giúp phát triển kinh doanh trực tuyến.",
+      "details": [
+        "Giao diện thân thiện người dùng",
+        "Thiết kế đa chức năng",
+        "Hỗ trợ kỹ thuật chuyên nghiệp"
+      ]
+    }
+  },
+  "imageLocationDesc": "Tại Việt Nam, phục vụ toàn cầu",
+  "investment": {
+    "title": "Chọn XianFeng Để Hỗ Trợ Đầu Tư Của Bạn Vào Việt Nam",
+    "subTitle1": "Kinh Nghiệm Chuyên Môn Phong Phú",
+    "desc1": "Với hơn 20 năm kinh nghiệm tại thị trường Việt Nam, chúng tôi hiểu rõ môi trường kinh doanh địa phương và cung cấp dịch vụ chuyên nghiệp.",
+    "subTitle2": "Hỗ Trợ Dịch Vụ Toàn Diện",
+    "desc2": "Từ đăng ký công ty đến tư vấn tài chính, chúng tôi cung cấp giải pháp trọn gói giúp bạn bắt đầu kinh doanh dễ dàng.",
+    "subTitle3": "Bảo Đảm Tuân Thủ",
+    "desc3": "Cập nhật liên tục các quy định pháp lý giúp đảm bảo doanh nghiệp hoạt động hợp pháp và giảm thiểu rủi ro.",
+    "subTitle4": "Đội Ngũ Hợp Tác Hiệu Quả",
+    "desc4": "Đội ngũ địa phương của chúng tôi giàu kinh nghiệm, sẵn sàng phản hồi nhanh chóng và hỗ trợ bạn triển khai dự án hiệu quả."
+  },
+  "contactForm": {
+    "title": "Liên Hệ Với Chúng Tôi Để Có Kết Quả Tốt Hơn",
+    "alertTitle": "Thông Báo",
+    "alertDesc": "Biểu mẫu này đang được cập nhật. Để nhận sự trợ giúp ngay lập tức, vui lòng liên hệ với chúng tôi qua Zalo hoặc WeChat!"
+  },
+  "contactPageTitle": "Liên Hệ Với Chúng Tôi",
+  "contactInfo": {
+    "title": "Thông tin liên hệ",
+    "email": "dailythue168@gmail.com",
+    "location": "LandMark 81, 208 Nguyễn Hữu Cảnh, phường 22, quận Bình Thạnh, Thành Phố Hồ Chí Minh",
+    "wechatQR": {
+      "title": "Giao tiếp trực tuyến",
+      "desc": "Quét mã QR trên hình ảnh để liên hệ với chúng tôi"
+    }
+  },
+  "footer": {
+    "toActionTitle": "Chúng Tôi Tạo Ra Những Ý Tưởng Sáng Tạo Tuyệt Vời",
+    "desc": "Chỉ có dịch vụ chuyên nghiệp và công nghệ sáng tạo mới có thể thúc đẩy sự phát triển của doanh nghiệp!"
+  },
+  "aboutPage": {
+    "title": "Giới thiệu về XianFeng Business",
+    "desc": "XianFeng Business là một doanh nghiệp công nghệ cao, chuyên cung cấp dịch vụ toàn diện cho các công ty quốc tế muốn vào thị trường Việt Nam. Đội ngũ cốt lõi của chúng tôi có hơn 20 năm kinh nghiệm trong ngành. Chúng tôi cam kết giúp khách hàng triển khai suôn sẻ và đảm bảo công ty hoạt động hợp pháp và tuân thủ quy định tại Việt Nam. Mục tiêu của chúng tôi là trở thành đối tác ưu tiên của bạn trong đầu tư và phát triển tại Việt Nam.",
+    "subTitle1": "Dịch vụ doanh nghiệp một cửa",
+    "subDesc1P1": "XianFeng Business cung cấp dịch vụ doanh nghiệp một cửa, bao gồm đăng ký công ty, tư vấn tuân thủ, tài chính và kế toán, nhân sự, visa và giấy phép lao động, bất động sản và cho thuê văn phòng, v.v. Chúng tôi chuyên hỗ trợ khách hàng đăng ký công ty tại Việt Nam, đảm bảo quy trình minh bạch và hiệu quả, các giấy tờ và thủ tục rõ ràng. Đồng thời, chúng tôi đã xây dựng thư viện tài nguyên pháp lý và quy định để cung cấp giải thích pháp lý mới nhất kịp thời, đảm bảo công ty của bạn luôn tuân thủ và tránh các rủi ro tiềm ẩn.",
+    "subDesc1P2": "Về tài chính và kế toán, chúng tôi cung cấp dịch vụ kiểm toán toàn diện, khai báo thuế và quản lý tiền lương, đảm bảo quản lý tài chính minh bạch và hiệu quả, giúp công ty đạt được sự phát triển ổn định. Đội ngũ của chúng tôi có kinh nghiệm phong phú trong ngành và có thể giúp bạn tuyển dụng nhân tài, thuê ngoài tiền lương và phân phối lao động để xây dựng đội ngũ hiệu quả.",
+    "subTitle2": "Dịch vụ bảo mật thông tin và dữ liệu",
+    "subDesc2P1": "XianFeng Business hiểu rõ tầm quan trọng của bảo mật thông tin, vì vậy chúng tôi cung cấp dịch vụ bảo mật thông tin và dữ liệu trực tuyến và ngoại tuyến. Dịch vụ phân tích và bảo vệ lưu lượng mạng của chúng tôi giúp các nhà quảng cáo và khách hàng nền tảng thương mại điện tử xác định chính xác lưu lượng và người dùng giả, đảm bảo tính xác thực và bảo mật dữ liệu. Đồng thời, chúng tôi cung cấp các giải pháp bảo mật mạng toàn diện, bao gồm kiểm tra bảo mật mạng nội bộ, phát hiện lỗ hổng hệ thống và triển khai tối ưu hóa, để đảm bảo bảo mật thông tin doanh nghiệp.",
+    "subDesc2P2": "Kết hợp công nghệ tiên tiến với kinh nghiệm ngành phong phú, XianFeng Business cung cấp dịch vụ bảo mật tùy chỉnh cho khách hàng để đảm bảo an ninh và sự ổn định của doanh nghiệp trong thời đại thông tin.",
+    "subTitle3": "Phát triển website thương hiệu và nền tảng thương mại điện tử độc lập",
+    "subDesc3P1": "Trong làn sóng chuyển đổi số, XianFeng Business cam kết cung cấp dịch vụ phát triển website thương hiệu chuyên nghiệp và nền tảng thương mại điện tử xuyên biên giới. Đội ngũ của chúng tôi thành thạo nhiều công nghệ phát triển và có thể tùy chỉnh các website thân thiện với người dùng theo nhu cầu của doanh nghiệp, tối ưu hóa chức năng và nâng cao hình ảnh trực tuyến. Bên cạnh đó, chúng tôi còn hỗ trợ phát triển các trang web thương mại điện tử độc lập đa ngôn ngữ và đa tiền tệ, giúp các doanh nghiệp mở rộng ra thị trường quốc tế và tăng cường khả năng cạnh tranh.",
+    "subDesc3P2": "Dịch vụ của chúng tôi không chỉ giới hạn ở phát triển công nghệ, mà còn bao gồm hỗ trợ toàn diện như thiết kế thương hiệu và lập kế hoạch marketing để giúp khách hàng nổi bật trong cuộc cạnh tranh thị trường gay gắt.",
+    "reasons": {
+      "title": "Lý do chọn XianFeng",
+      "title1": "Mối quan hệ vững chắc với địa phương",
+      "desc1": "XianFeng Business có kiến thức thị trường phong phú và mối quan hệ sâu sắc với địa phương, có thể cung cấp các giải pháp tùy chỉnh giúp công ty nhanh chóng thích nghi với thị trường Việt Nam.",
+      "title2": "Đội ngũ dịch vụ chuyên nghiệp",
+      "desc2": "Đội ngũ của chúng tôi bao gồm nhiều chuyên gia trong ngành với kiến thức chuyên môn và kinh nghiệm thực tế phong phú, đảm bảo cung cấp dịch vụ hiệu quả và chất lượng cao cho khách hàng.",
+      "title3": "Bảo vệ an toàn toàn diện",
+      "desc3": "XianFeng Business chú trọng đến bảo mật thông tin và cung cấp dịch vụ bảo mật dữ liệu toàn diện, giúp doanh nghiệp chống lại các rủi ro mạng tiềm ẩn và đảm bảo an toàn trong hoạt động.",
+      "title4": "Hỗ trợ kỹ thuật sáng tạo",
+      "desc4": "Chúng tôi sử dụng công nghệ mới nhất và cung cấp các giải pháp tiên tiến để giúp doanh nghiệp đạt được hoạt động hiệu quả và nâng cao thương hiệu trong quá trình chuyển đổi số."
+    },
+    "conclusion": {
+      "title": "Kết luận",
+      "desc": "XianFeng Business cam kết cung cấp dịch vụ tốt nhất cho khách hàng và giúp họ thành công trên thị trường Việt Nam. Chúng tôi hiểu rằng nhu cầu của mỗi doanh nghiệp là khác nhau, vì vậy chúng tôi luôn kiên định cung cấp giải pháp cá nhân hóa cho khách hàng. Hãy chọn XianFeng để giúp đầu tư và phát triển tại Việt Nam, và hãy cùng nhau tạo dựng một tương lai tươi sáng!"
+    }
+  },
+  "language": "Ngôn Ngữ"
 }

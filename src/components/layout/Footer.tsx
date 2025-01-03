@@ -1,9 +1,13 @@
+"use client";
 import React from "react";
 import { Button, Image, Input } from "antd";
 import Link from "next/link";
 import { IoIosSend } from "react-icons/io";
+import { useTranslation } from "next-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation("common");
+
   return (
     <footer className="bg-[#003366] text-gray pt-16">
       <div className="container mx-auto flex flex-wrap justify-around">
@@ -17,10 +21,7 @@ export default function Footer() {
             />
             <p className="ml-3 text-2xl text-white">先锋商务</p>
           </div>
-          <p>
-            Only professional services and innovative technology can drive
-            enterprise development!
-          </p>
+          <p>{t("footer.desc")}</p>
           <p>
             Zalo/ Whatsapp/ Line: <span className="text-white">0899398383</span>
           </p>
@@ -30,30 +31,30 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>
               <Link href="/" className=" hover:underline">
-                Home
+                {t("navHeader.home")}
               </Link>
             </li>
             <li>
               <Link href="/about" className="hover:underline">
-                About Us
+                {t("navHeader.about")}
               </Link>
             </li>
             <li>
               <Link href="/services" className="hover:underline">
-                Services
+                {t("navHeader.services")}
               </Link>
             </li>
 
             <li>
               <Link href="/contact" className="hover:underline">
-                Contact Us
+                {t("navHeader.contact")}
               </Link>
             </li>
           </ul>
         </div>
         <div className="w-full md:w-1/3 px-4 space-y-6">
           <h3 className="text-xl text-white mb-2">
-            We Create Truly Excellent Ideas
+            {t("footer.toActionTitle")}
           </h3>
           <div className="flex gap-2 mb-2">
             <Input

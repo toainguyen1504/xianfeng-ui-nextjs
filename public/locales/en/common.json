@@ -1,7 +1,197 @@
 {
-  "home": "Home",
-  "about": "About Us",
-  "services": "Services",
-  "contact": "Contact",
+  "navHeader": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "bannerHome": {
+    "title": "XianFeng",
+    "subTitle": "Vietnam Enterprise Landing Expert",
+    "desc": "XianFeng has a local team in Vietnam, providing comprehensive one-stop services including company registration, finance, law, recruitment, etc., combined with global security technology to ensure the smooth operation and development of enterprises.",
+    "rightTitle": "Vietnam",
+    "rightDesc": "Local service in Vietnam, global security guarantee."
+  },
+  "servicesList": {
+    "titleHomePage": "List of XianFeng Professional Services",
+    "titleServicePage": "List of XianFeng Professional Services",
+    "companyRegistration": {
+      "title": "Company registration services",
+      "subTitle": "Assist in the entire process of company registration",
+      "description": "Professionally handle Vietnam company registration to ensure legal and compliant operations.",
+      "details": ["One-stop service", "Fast processing", "Compliance assurance"]
+    },
+    "complianceConsulting": {
+      "title": "Compliance consulting services",
+      "subTitle": "Provide interpretation of laws and regulations",
+      "description": "Provide the latest interpretation of Vietnamese laws, regulations and tax policies to ensure that enterprises are always compliant.",
+      "details": [
+        "In-depth understanding of policies",
+        "Regularly update regulations",
+        "Risk prevention advice"
+      ]
+    },
+    "financialAccounting": {
+      "title": "Financial and accounting services",
+      "subTitle": "Comprehensive financial management",
+      "description": "Provide financial auditing, tax reporting and payroll management to ensure transparency and efficiency.",
+      "details": [
+        "High financial transparency",
+        "Professional audit team",
+        "Accurate tax reporting"
+      ]
+    },
+    "humanResources": {
+      "title": "Human resources services",
+      "subTitle": "Efficient team building",
+      "description": "Including recruitment, labor outsourcing, and salary management, it helps companies improve team efficiency.",
+      "details": [
+        "High-quality talent screening",
+        "Flexible employment plan",
+        "Reasonable cost control"
+      ]
+    },
+    "visaWorkPermit": {
+      "title": "Visa and work permit services",
+      "subTitle": "Fast visa processing",
+      "description": "Provide foreign employees with quick visa and work permit processing services to solve legal employment issues.",
+      "details": [
+        "Efficient processing procedures",
+        "Professional policy interpretation",
+        "Ensure legal compliance"
+      ]
+    },
+    "realEstateLeasing": {
+      "title": "Real estate and office leasing",
+      "subTitle": "Diverse property options",
+      "description": "Provide a variety of real estate and office leasing options to meet the different development needs of enterprises.",
+      "details": [
+        "Excellent location",
+        "Flexible leasing options",
+        "Professional market analysis"
+      ]
+    },
+    "hotelReservation": {
+      "title": "Hotel reservation service",
+      "subTitle": "High-end business accommodation arrangement",
+      "description": "Arrange reservations at the 81st floor luxury hotel to ensure your customers' comfortable experience.",
+      "details": [
+        "High-quality hotel resources",
+        "Convenient booking process",
+        "Professional customer service"
+      ]
+    },
+    "premiumBusinessTranslation": {
+      "title": "Premium business translation services",
+      "subTitle": "Professional translation guarantee",
+      "description": "Provide professional translation services for meetings, contracts, business negotiations, etc.",
+      "details": [
+        "Multi-lingual",
+        "Understand industry terminology",
+        "Improve communication efficiency"
+      ]
+    },
+    "tourGuideTranslation": {
+      "title": "High-level tour guide translation service",
+      "subTitle": "Cultural market dual support",
+      "description": "Providing tour guide translation services that support both tourism and business, helping customers better understand the Vietnamese market.",
+      "details": [
+        "Extensive local knowledge",
+        "Provide cultural interpretation",
+        "Professional service experience"
+      ]
+    },
+    "charterAirportTransfer": {
+      "title": "Charter and airport transfer services",
+      "subTitle": "For safe and convenient travel",
+      "description": "Provide a variety of car models and reservation processes to ensure safe and convenient travel for customers.",
+      "details": [
+        "Rich selection of models",
+        "Thoughtful pick-up and drop-off service",
+        "Ensure travel safety"
+      ]
+    },
+    "corporateBrandDesign": {
+      "title": "Corporate brand design",
+      "subTitle": "Builds brand image",
+      "description": "Provide brand logo and visual identification system (VIS) design to help companies build a strong brand image.",
+      "details": [
+        "Creative design team",
+        "Professional brand strategy",
+        "Strengthen market competitiveness"
+      ]
+    },
+    "websiteEcommerceDevelopment": {
+      "title": "Official website and cross-border e-commerce development",
+      "subTitle": "Customized website solutions",
+      "description": "Design and develop official websites and e-commerce platforms that meet corporate needs to enhance online presence.",
+      "details": [
+        "User-friendly interface",
+        "Multifunctional design",
+        "Professional technical support"
+      ]
+    }
+  },
+  "imageLocationDesc": "Based in Vietnam, serving the world",
+  "investment": {
+    "title": "Choose XianFeng to help your investment in Vietnam",
+    "subTitle1": "Rich professional experience",
+    "desc1": "With more than 20 years of experience in the Vietnamese market, we understand the local business environment and provide professional services.",
+    "subTitle2": "Full range of service support",
+    "desc2": "From company registration to financial consulting, we provide one-stop solutions to help you run your business smoothly.",
+    "subTitle3": "Compliance assurance priority",
+    "desc3": "Keep up with the latest laws and regulations to ensure business operations are in compliance and reduce legal risks.",
+    "subTitle4": "Efficient teamwork",
+    "desc4": "Our experienced local team can respond to your needs quickly and help you advance your project efficiently."
+  },
+  "contactForm": {
+    "title": "Contact us for better results",
+    "alertTitle": "Notice",
+    "alertDesc": "This form is currently being updated. For immediate assistance, please contact us via Zalo or WeChat!"
+  },
+  "contactPageTitle": "Contact Us",
+  "contactInfo": {
+    "title": "Contact information",
+    "email": "dailythue168@gmail.com",
+    "location": "LandMark 81, 208 Nguyen Huu Canh, Ward 22, Binh Thanh District, Ho Chi Minh City",
+    "wechatQR": {
+      "title": "Online communication",
+      "desc": "Scan the QR code on the picture to contact us"
+    }
+  },
+
+  "aboutPage": {
+    "title": "XianFeng Business Introduction",
+    "desc": "XianFeng Business is a high-tech enterprise that focuses on providing comprehensive services to international companies entering the Vietnamese market. The core team has more than 20 years of industry experience. Our team is committed to helping customers achieve smooth landing and ensure that companies operate legally and compliantly in Vietnam. Our goal is to become your preferred partner for investment and development in Vietnam.",
+    "subTitle1": "One-stop corporate services",
+    "subDesc1P1": "XianFeng Business provides one-stop corporate services, covering company registration, compliance consulting, finance and accounting, human resources, visas and work permits, real estate and office leasing, etc. We professionally assist clients in Vietnam company registration, ensuring that the entire process is transparent and efficient, and the required documents and procedures are clear. At the same time, we have established a legal and regulatory resource library to provide the latest legal interpretation in a timely manner to ensure that your company is always compliant and avoid potential risks.",
+    "subDesc1P2": "In terms of finance and accounting, we provide comprehensive auditing, tax declaration and payroll management services to ensure transparent and efficient financial management and help companies achieve steady growth. Our team has rich industry experience and can help you recruit talents, outsource payroll and dispatch labor to build an efficient team.",
+    "subTitle2": "Information and data security services",
+    "subDesc2P1": "XianFeng Business is well aware of the importance of information security, and therefore provides online and offline information and data security services. Our network traffic analysis and protection services help advertisers and e-commerce platform customers accurately identify fake traffic and users, ensuring the authenticity and security of data. At the same time, we provide comprehensive network security solutions, including intranet security testing, system vulnerability detection and optimized deployment, to ensure the security of corporate information.",
+    "subDesc2P2": "By combining advanced technology with rich industry experience, XianFeng Business provides customers with customized security services to ensure the security and stability of enterprises in the information age.",
+    "subTitle3": "Development of brand official website and independent e-commerce platform",
+    "subDesc3P1": "In the wave of digital transformation, XianFeng Business is committed to providing customers with professional brand official website and cross-border e-commerce platform development services. Our team is proficient in a variety of development technologies and can customize user-friendly official websites according to corporate needs, optimize functions, and enhance online image. In addition, we also support the development of multi-language and multi-currency cross-border e-commerce independent sites to help companies expand into the international market and enhance market competitiveness.",
+    "subDesc3P2": "Our services are not limited to technology development, but also include all-round support such as brand design and marketing planning to help customers stand out in the fierce market competition.",
+    "reasons": {
+      "title": "Reasons to choose XianFeng",
+      "title1": "Strong local roots",
+      "desc1": "XianFeng Business has rich market knowledge and deep local roots, and can provide customers with tailor-made solutions to help companies quickly adapt to the Vietnamese market.",
+      "title2": "Professional service team",
+      "desc2": "Our team is composed of many industry experts with professional knowledge and rich practical experience, ensuring that we provide customers with efficient and high-quality services.",
+      "title3": "Comprehensive security protection",
+      "desc3": "XianFeng Business focuses on information security and provides comprehensive data security services to help companies resist potential network risks and ensure operational security.",
+      "title4": "Innovative technical support",
+      "desc4": "We use the latest technologies and provide advanced solutions to help companies achieve efficient operations and enhance their brands during digital transformation."
+    },
+    "conclusion": {
+      "title": "Conclusion",
+      "desc": "XianFeng Business is committed to providing customers with the best services and helping them achieve success in the Vietnamese market. We are well aware that the needs of each business are different, so we always insist on providing customers with personalized solutions. Choose XianFeng to help your investment and development in Vietnam, and let us work together to create a brilliant future!"
+    }
+  },
+
+  "footer": {
+    "toActionTitle": " We Create Truly Excellent Ideas",
+    "desc": "Only professional services and innovative technology can drive enterprise development!"
+  },
   "language": "Language"
 }
