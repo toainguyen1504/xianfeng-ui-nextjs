@@ -16,10 +16,10 @@ const BannerHome: React.FC = () => {
             <Col xs={24} md={16} lg={16}>
               <div className="p-8">
                 <Title level={1} className="text-primary">
-                  <span className="font-extrabold text-primary mr-2">
+                  <strong className="font-extrabold text-primary mr-2">
                     {t("bannerHome.title")}
-                  </span>
-                  {t("bannerHome.subTitle")}
+                  </strong>
+                  <p>{t("bannerHome.subTitle")}</p>
                 </Title>
                 <Paragraph className="text-lg mt-4">
                   {t("bannerHome.desc")}
