@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Form, Input, Button, notification, Alert } from "antd";
 import { ValidateErrorEntity } from "rc-field-form/lib/interface";
 import { AiOutlineNotification } from "react-icons/ai";
@@ -16,7 +17,7 @@ const ContactForm = () => {
           "This form is currently being updated. For immediate assistance, please contact us via Zalo or WeChat!",
       });
     } else {
-      console.log("Success:", values);
+      // console.log("Success:", values);
       notification.success({
         message: "Submit Successful",
         description: "Your form has been submitted successfully.",
@@ -28,7 +29,7 @@ const ContactForm = () => {
     errorInfo: ValidateErrorEntity<FieldContactFormData>
   ) => {
     if (!isUpdating) {
-      console.log("Failed:", errorInfo);
+      // console.log("Failed:", errorInfo);
       notification.error({
         message: "Submit Failed",
         description: "Please check the form for errors and try again.",
