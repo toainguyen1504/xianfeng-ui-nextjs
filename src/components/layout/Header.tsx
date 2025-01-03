@@ -6,6 +6,7 @@ import { IoMdClose } from "react-icons/io";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import i18n from "@/utils/i18n";
+import useLanguageLoader from "@/utils/useLanguageLoader";
 
 interface LanguageDetails {
   label: string;
@@ -28,6 +29,8 @@ export default function Header() {
     setSelectedLanguage(lang);
     i18n.changeLanguage(lang);
   };
+
+  const isLoading = useLanguageLoader();
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -65,50 +68,54 @@ export default function Header() {
             />
           </Link>
         </div>
-        <nav className="hidden md:flex items-center h-[48px] space-x-8">
-          <Link
-            href="/"
-            className="font-semibold text-gray-700 hover:text-primary"
-          >
-            {t("navHeader.home")}
-          </Link>
-          <Link
-            href="/about"
-            className="font-semibold text-gray-700 hover:text-primary"
-          >
-            {t("navHeader.about")}
-          </Link>
-          <Link
-            href="/services"
-            className="font-semibold text-gray-700 hover:text-primary"
-          >
-            {t("navHeader.services")}
-          </Link>
-          <Link
-            href="/contact"
-            className="font-semibold text-gray-700 hover:text-primary"
-          >
-            {t("navHeader.contact")}
-          </Link>
-        </nav>
-        <div className="flex items-center space-x-4">
-          <Dropdown menu={{ items: languageMenuItems }} trigger={["click"]}>
-            <Button className="min-w-[130px] border-none shadow-none">
-              <Image
-                src={`/assets/icons${languageDetails[selectedLanguage].src}`}
-                alt={selectedLanguage}
-                width={24}
-                height={24}
-                preview={false}
-                className="inline-block mr-2"
-              />
-              {languageDetails[selectedLanguage].label} <DownOutlined />
-            </Button>
-          </Dropdown>
-          <Button className="md:hidden" onClick={handleMenuToggle}>
-            <MenuOutlined />
-          </Button>
-        </div>
+        {isLoading ? null : (
+          <>
+            <nav className="hidden md:flex items-center h-[48px] space-x-8">
+              <Link
+                href="/"
+                className="font-semibold text-gray-700 hover:text-primary"
+              >
+                {t("navHeader.home")}
+              </Link>
+              <Link
+                href="/about"
+                className="font-semibold text-gray-700 hover:text-primary"
+              >
+                {t("navHeader.about")}
+              </Link>
+              <Link
+                href="/services"
+                className="font-semibold text-gray-700 hover:text-primary"
+              >
+                {t("navHeader.services")}
+              </Link>
+              <Link
+                href="/contact"
+                className="font-semibold text-gray-700 hover:text-primary"
+              >
+                {t("navHeader.contact")}
+              </Link>
+            </nav>
+            <div className="flex items-center space-x-4">
+              <Dropdown menu={{ items: languageMenuItems }} trigger={["click"]}>
+                <Button className="min-w-[130px] border-none shadow-none">
+                  <Image
+                    src={`/assets/icons${languageDetails[selectedLanguage].src}`}
+                    alt={selectedLanguage}
+                    width={24}
+                    height={24}
+                    preview={false}
+                    className="inline-block mr-2"
+                  />
+                  {languageDetails[selectedLanguage].label} <DownOutlined />
+                </Button>
+              </Dropdown>
+              <Button className="md:hidden" onClick={handleMenuToggle}>
+                <MenuOutlined />
+              </Button>
+            </div>
+          </>
+        )}
       </div>
       {isMenuOpen && (
         <div className="md:hidden fixed inset-0 z-40 flex">
@@ -124,34 +131,38 @@ export default function Header() {
               <IoMdClose size={20} />
             </button>
             <div className="py-12 space-y-2">
-              <Link
-                href="/"
-                className="block font-medium text-gray-700 hover:text-primary border-b border-gray-100 py-3"
-                style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
-              >
-                Home
-              </Link>
-              <Link
-                href="/about"
-                className="block font-medium text-gray-700 hover:text-primary border-b border-gray-100 py-3"
-                style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
-              >
-                About Us
-              </Link>
-              <Link
-                href="/services"
-                className="block font-medium text-gray-700 hover:text-primary border-b border-gray-100 py-3"
-                style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
-              >
-                Services
-              </Link>
-              <Link
-                href="/contact"
-                className="block font-medium text-gray-700 hover:text-primary border-b border-gray-100 py-3"
-                style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
-              >
-                Contact
-              </Link>
+              {isLoading ? null : (
+                <>
+                  <Link
+                    href="/"
+                    className="block font-medium text-gray-700 hover:text-primary border-b border-gray-100 py-3"
+                    style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
+                  >
+                    {t("navHeader.home")}
+                  </Link>
+                  <Link
+                    href="/about"
+                    className="block font-medium text-gray-700 hover:text-primary border-b border-gray-100 py-3"
+                    style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
+                  >
+                    {t("navHeader.about")}
+                  </Link>
+                  <Link
+                    href="/services"
+                    className="block font-medium text-gray-700 hover:text-primary border-b border-gray-100 py-3"
+                    style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
+                  >
+                    {t("navHeader.services")}
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className="block font-medium text-gray-700 hover:text-primary border-b border-gray-100 py-3"
+                    style={{ borderColor: "rgba(107, 114, 128, 0.1)" }}
+                  >
+                    {t("navHeader.contact")}
+                  </Link>
+                </>
+              )}
             </div>
             <div className="space-y-4">
               <div className="flex items-center">
