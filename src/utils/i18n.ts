@@ -11,8 +11,8 @@ i18n
   .use(LanguageDetector) 
   .use(initReactI18next)
   .init({
-    // lng: savedLanguage,
-    fallbackLng: "en", 
+    lng: "zh",
+    fallbackLng: "zh", 
     debug: isDevelopment,
     interpolation: {
       escapeValue: false, 

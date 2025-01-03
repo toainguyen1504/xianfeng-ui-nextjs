@@ -22,7 +22,7 @@ const languageDetails: Record<string, LanguageDetails> = {
 
 export default function Header() {
   const { t } = useTranslation("common");
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("en");
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("zh");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const changeLanguage = (lang: string) => {
