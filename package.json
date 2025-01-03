@@ -12,6 +12,7 @@
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "^1.0.3",
     "@tailwindcss/line-clamp": "^0.4.4",
+    "@tippyjs/react": "^4.2.6",
     "antd": "^5.22.7",
     "i18next": "^24.2.0",
     "i18next-browser-languagedetector": "^8.0.2",

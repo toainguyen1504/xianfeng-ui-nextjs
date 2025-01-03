@@ -17,6 +17,8 @@ import { BsTranslate } from "react-icons/bs";
 import { TbWorldCode } from "react-icons/tb";
 import { useTranslation } from "next-i18next";
 import { JSX } from "react";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 
 interface Service {
   title: string;
@@ -145,12 +147,21 @@ const ServiceCards = () => {
           <Col xs={24} sm={12} lg={8} key={index}>
             <Card
               title={
-                <div className="flex items-center">
-                  <div className="flex-shrink-0">{service.icon}</div>
-                  <div className="ml-2 flex-grow truncate">
-                    <span className="text-xl">{service.title}</span>
-                  </div>
-                </div>
+                <>
+                  <Tippy
+                    content={service.title}
+                    trigger="mouseenter focus click"
+                  >
+                    <div className="flex items-center">
+                      <div className="flex-shrink-0">{service.icon}</div>
+                      <div className="ml-2 flex-grow whitespace-normal">
+                        <span className="text-xl line-clamp-2 md:line-clamp-1">
+                          {service.title}
+                        </span>
+                      </div>
+                    </div>
+                  </Tippy>
+                </>
               }
               className={`custom-card ${
                 index % 2 === 0
